@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Лабораторна</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link id="theme-style" rel="stylesheet" href="light.css">
+</head>
+<body>
+  <header>
+    <h1>Резюме - Дмитро Чорній</h1>
+    <button id="theme-toggle">Змінити тему</button>
+  </header>
+
+  <main>
+    <section id="comments-section">
+      <h2>Коментарі від попередніх роботодавців</h2>
+      <div id="comments"></div>
+    </section>
+  </main>
+
+  <footer>
+    <h3>Інформація про браузер та ОС:</h3>
+  </footer>
+
+  <!-- Модальне вікно -->
+  <div id="modal" class="modal">
+    <form action="https://formspree.io/f/mldbopjw" method="POST">
+      <h2>Зворотній зв'язок</h2>
+      <label>Ім’я: <input type="text" name="name" required></label><br>
+      <label>Email: <input type="email" name="email" required></label><br>
+      <label>Телефон: <input type="tel" name="phone" required></label><br>
+      <label>Повідомлення: <textarea name="message" required></textarea></label><br>
+      <button type="submit">Відправити</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
